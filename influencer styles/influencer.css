@@ -1,0 +1,84 @@
+/* shared styles  */
+*{
+  font-family: "Roboto", serif;
+  margin: 0;
+}
+/* nav bar section styles  */
+header{
+    padding: 50px 100px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    margin-right:1.35rem ;
+
+}
+li a{
+    text-decoration: none;
+}
+/* banner-section styles  */
+.banner-container{
+    display: flex;
+}
+.banner-content{
+   padding: 8rem 0rem;
+}
+.banner-img img{
+    background-image: url(../images/Circle\ design.svg);
+    margin-left: 120px;
+}
+.icon-container img{
+    margin-right: 30px;
+}
+.icon-container{
+    text-align: center;
+}
+
+/* popular-card-section start  */
+
+.popular-card-section h3{
+    text-align: center;
+    font-size: 4rem;
+}
+.popular-card-section{
+    padding: 1.5rem 10rem;
+}
+.popular-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.popular-card{
+    padding: 25px;
+    box-shadow: 5px 10px 20px #888888;
+}
+.see-more{
+    text-align: right;
+    color: red;
+    padding-top: 2rem;
+    font-size: 1.7rem;
+}
+
+/* feature products style star  */
+
+.feature-products-container{
+    display: flex;
+    gap: 2rem;
+    padding: 1.8rem 10rem;
+}
+
+/* footer section styles */
+
+.footer-content{
+    text-align: center;
+    padding: 4rem 0rem;
+    color: #FFFFFF;
+    background-color: #0A0826;
+}
